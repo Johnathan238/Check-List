@@ -55,7 +55,7 @@ body {
 
 #todo-list{
     font-size: 2rem;
-    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.20)
 }
 
 h1 {
