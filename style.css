@@ -30,6 +30,20 @@ body {
     }
 }
 
+.Check-BT {
+    border: none;
+    background-color: rgb(154, 255, 40);
+    color: rgb(0, 0, 0);
+    font-size: 2rem;
+    font-family: inherit;
+    padding: 2rem 3rem;
+    cursor: pointer;
+}
+
+.Check-BT:hover {
+    background-color: rgb(111, 0, 255);
+}
+
 .squaredFour {
     width: 20px;
     position: relative;
@@ -86,7 +100,7 @@ body {
     text-shadow: 1px 1px 4px black;
     letter-spacing: 0.1em;
     background-color: rgba(255, 255, 255, 0.20);
-    color: #facd38;
+    color: #ffc400;
 }
 .myTableText td {
     font: normal 14px / 1.5em Goudy, Georgia, serif;
