@@ -10,6 +10,11 @@ const btnsSHowModal = document.querySelectorAll('.show-modal')
 //   console.log('====================================');
 // })
 
+const openModal = function () {
+  modal.classList.remove('hidden')
+  overlay.classList.remove('hidden')
+}
+
 const btnCheck = document.querySelector('.Check-BT')
 
 btnCheck.addEventListener('click', openModal)
