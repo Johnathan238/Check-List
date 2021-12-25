@@ -18,3 +18,15 @@ const openModal = function () {
 const btnCheck = document.querySelector('.Check-BT')
 
 btnCheck.addEventListener('click', openModal)
+
+for (let i = 0; i < btnsSHowModal.length; i++) {
+  btnsSHowModal[i].addEventListener('click', openModal)
+}
+const closeModalFam = function () {
+  modal.classList.add('hidden')
+  overlay.classList.add('hidden')
+}
+
+btnCloseModal.addEventListener('click', closeModalFam)
+
+overlay.addEventListener('click', closeModalFam)
