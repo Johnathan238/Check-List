@@ -8,6 +8,7 @@ document.getElementById('squaredFour').addEventListener('click', function (){
   console.log('====================================');
   console.log(check);
   console.log('====================================');
+  document.querySelector('body').style.backgroundColor = '#83D475'
 })
 
 const openModal = function () {
