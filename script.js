@@ -16,7 +16,9 @@ const openModal = function () {
 }
 
 const btnCheck = document.querySelector('.Check-BT')
+const checkSquare = document.getElementById('squaredFour')
 
+checkSquare.addEventListener('click', openModal)
 btnCheck.addEventListener('click', openModal)
 
 for (let i = 0; i < btnsSHowModal.length; i++) {
