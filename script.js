@@ -14,7 +14,7 @@ document.getElementById('squaredFour').addEventListener('click', function (){
 const openModal = function () {
   modal.classList.remove('hidden')
   overlay.classList.remove('hidden')
-  document.querySelector('body').style.backgroundColor = '##77d183'
+  document.querySelector('body').style.backgroundColor = '#77d183'
 }
 
 const btnCheck = document.querySelector('.Check-BT')
