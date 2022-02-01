@@ -4,8 +4,12 @@ const modal = document.querySelector('.modal')
 const overlay = document.querySelector('.overlay')
 const btnCloseModal = document.querySelector('.close-modal')
 const btnsSHowModal = document.querySelectorAll('.show-modal')
+const input1 = document.getElementById('1')
+const input2 = document.getElementById('2')
+const input3 = document.getElementById('3')
+const input4 = document.getElementById('4')
 
-document.getElementById('check').addEventListener('click', function (){
+document.getElementById('1').addEventListener('click', function (){
   console.log('====================================');
   console.log(check);
   console.log('====================================');
