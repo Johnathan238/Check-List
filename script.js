@@ -1,5 +1,6 @@
 'use strict';
 
+const body = document.querySelector('body')
 const modal = document.querySelector('.modal')
 const overlay = document.querySelector('.overlay')
 const btnCloseModal = document.querySelector('.close-modal')
@@ -11,11 +12,14 @@ const input4 = document.getElementById('4')
 const btnCheck = document.querySelector('.Check-BT')
 const checkSquare = document.getElementById('squaredFour')
 
-document.getElementById('1').addEventListener('click', function (){
+let allInputs = input1, input2, input3, input4
+
+
+allInputs.addEventListener('click', function (){
   console.log('====================================');
-  console.log(1);
+  console.log(allInputs);
   console.log('====================================');
-  document.querySelector('body').style.backgroundColor = '#83D475'
+  body.style.backgroundColor = '#83D475'
 })
 
 const openModal = function () {
