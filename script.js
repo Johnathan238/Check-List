@@ -12,13 +12,15 @@ const input4 = document.getElementById('4')
 // const btnCheck = document.querySelector('.Check-BT')
 // const addItem = document.getElementById('add-todo')
 
+const allInputs = document.querySelectorAll('.inp')
 
-const allInputs = (input4).addEventListener('click', function (){
-  console.log('====================================');
-  console.log(4);
-  console.log('====================================');
-  body.style.backgroundColor = '#83D475'
-})
+
+// allInputs.addEventListener('click', function (){
+//   console.log('====================================');
+//   console.log(4);
+//   console.log('====================================');
+//   body.style.backgroundColor = '#83D475'
+// })
 console.log(allInputs);
 
 const openModal = function () {
