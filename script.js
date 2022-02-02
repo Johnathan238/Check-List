@@ -8,10 +8,12 @@ const input1 = document.getElementById('1')
 const input2 = document.getElementById('2')
 const input3 = document.getElementById('3')
 const input4 = document.getElementById('4')
+const btnCheck = document.querySelector('.Check-BT')
+const checkSquare = document.getElementById('squaredFour')
 
 document.getElementById('1').addEventListener('click', function (){
   console.log('====================================');
-  console.log(check);
+  console.log(1);
   console.log('====================================');
   document.querySelector('body').style.backgroundColor = '#83D475'
 })
@@ -22,19 +24,17 @@ const openModal = function () {
   document.querySelector('body').style.backgroundColor = '#77d183'
 }
 
-const btnCheck = document.querySelector('.Check-BT')
-const checkSquare = document.getElementById('squaredFour')
+const closeModalFam = function () {
+  modal.classList.add('hidden')
+  overlay.classList.add('hidden')
+  // document.querySelector('body').style.backgroundColor = '#DC143C'
+}
 
 checkSquare.addEventListener('click', openModal)
 btnCheck.addEventListener('click', openModal)
 
 for (let i = 0; i < btnsSHowModal.length; i++) {
   btnsSHowModal[i].addEventListener('click', openModal)
-}
-const closeModalFam = function () {
-  modal.classList.add('hidden')
-  overlay.classList.add('hidden')
-  // document.querySelector('body').style.backgroundColor = '#DC143C'
 }
 
 btnCloseModal.addEventListener('click', closeModalFam)
