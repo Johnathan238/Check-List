@@ -13,12 +13,13 @@ const input4 = document.getElementById('4')
 // const addItem = document.getElementById('add-todo')
 
 
-const allInputs = (input1, input2, input3, input4).addEventListener('click', function (){
+const allInputs = (input4).addEventListener('click', function (){
   console.log('====================================');
-  console.log(input1);
+  console.log(4);
   console.log('====================================');
   body.style.backgroundColor = '#83D475'
 })
+console.log(allInputs);
 
 const openModal = function () {
   modal.classList.remove('hidden')
