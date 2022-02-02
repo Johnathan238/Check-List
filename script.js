@@ -9,15 +9,13 @@ const input1 = document.getElementById('1')
 const input2 = document.getElementById('2')
 const input3 = document.getElementById('3')
 const input4 = document.getElementById('4')
-const btnCheck = document.querySelector('.Check-BT')
-const checkSquare = document.getElementById('squaredFour')
-
-let allInputs = input1, input2, input3, input4
+// const btnCheck = document.querySelector('.Check-BT')
+// const addItem = document.getElementById('add-todo')
 
 
-allInputs.addEventListener('click', function (){
+const allInputs = (input1, input2, input3, input4).addEventListener('click', function (){
   console.log('====================================');
-  console.log(allInputs);
+  console.log(input1);
   console.log('====================================');
   body.style.backgroundColor = '#83D475'
 })
@@ -34,8 +32,8 @@ const closeModalFam = function () {
   // document.querySelector('body').style.backgroundColor = '#DC143C'
 }
 
-checkSquare.addEventListener('click', openModal)
-btnCheck.addEventListener('click', openModal)
+// addItem.addEventListener('click', openModal)
+// btnCheck.addEventListener('click', openModal)
 
 for (let i = 0; i < btnsSHowModal.length; i++) {
   btnsSHowModal[i].addEventListener('click', openModal)
