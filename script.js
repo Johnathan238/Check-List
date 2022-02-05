@@ -5,23 +5,22 @@ const modal = document.querySelector('.modal')
 const overlay = document.querySelector('.overlay')
 const btnCloseModal = document.querySelector('.close-modal')
 const btnsSHowModal = document.querySelectorAll('.show-modal')
-const input1 = document.getElementById('1')
-const input2 = document.getElementById('2')
-const input3 = document.getElementById('3')
-const input4 = document.getElementById('4')
+const allI = document.querySelectorAll('.i')
+
 // const btnCheck = document.querySelector('.Check-BT')
 // const addItem = document.getElementById('add-todo')
 
-const allInputs = document.querySelectorAll('.inp')
+// allI.addEventListener('click', function(){
+//   body.style.backgroundColor = '#83D475'
+// })
 
-
-// allInputs.addEventListener('click', function (){
+// document.querySelectorAll('.inp').addEventListener('click', function (){
 //   console.log('====================================');
 //   console.log(4);
 //   console.log('====================================');
 //   body.style.backgroundColor = '#83D475'
 // })
-console.log(allInputs);
+// console.log(allInputs);
 
 const openModal = function () {
   modal.classList.remove('hidden')
