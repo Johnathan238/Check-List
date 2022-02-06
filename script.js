@@ -5,7 +5,9 @@ const modal = document.querySelector('.modal')
 const overlay = document.querySelector('.overlay')
 const btnCloseModal = document.querySelector('.close-modal')
 const btnsSHowModal = document.querySelectorAll('.show-modal')
-// const allI = document.querySelectorAll('.i')
+const allI = document.querySelectorAll('.i')
+console.log("🚀 ~ file: script.js ~ line 9 ~ allI", allI)
+// console.log(allI);
 
 // const btnCheck = document.querySelector('.Check-BT')
 // const addItem = document.getElementById('add-todo')
@@ -14,12 +16,12 @@ const btnsSHowModal = document.querySelectorAll('.show-modal')
 //   body.style.backgroundColor = '#83D475'
 // })
 
-const allI = document.querySelectorAll('.i').addEventListener('click', function (){
-  console.log('====================================');
-  console.log(4);
-  console.log('====================================');
-  body.style.backgroundColor = '#83D475'
-})
+// let allInput = document.querySelectorAll('.i').addEventListener('click', function (){
+//   console.log('====================================');
+//   console.log(4);
+//   console.log('====================================');
+//   body.style.backgroundColor = '#83D475'
+// })
 // console.log(allInputs);
 
 const openModal = function () {
