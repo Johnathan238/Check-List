@@ -5,15 +5,16 @@ const modal = document.querySelector('.modal')
 const overlay = document.querySelector('.overlay')
 const btnCloseModal = document.querySelector('.close-modal')
 const btnsSHowModal = document.querySelectorAll('.show-modal')
-// let allI = document.querySelectorAll('.i')
+var allI = document.querySelectorAll('.i')
 // console.log("🚀 ~ file: script.js ~ line 9 ~ allI", allI)
 // console.log(allI);
 
 // const btnCheck = document.querySelector('.Check-BT')
 // const addItem = document.getElementById('add-todo')
 
-const allI = document.querySelector('.input-box').addEventListener('click', function(){
+var allI = document.querySelector('.input-box1').addEventListener('click', function(){
   body.style.backgroundColor = '#83D475'
+  openModal
 })
 
 console.log("🚀 ~ file: script.js ~ line 19 ~ document.getElementById ~ document.getElementById('i')", document.querySelectorAll('.input-box'))
@@ -38,12 +39,13 @@ const closeModalFam = function () {
   // document.querySelector('body').style.backgroundColor = '#DC143C'
 }
 
-// addItem.addEventListener('click', openModal)
+// allI.addEventListener('click', openModal)
 // btnCheck.addEventListener('click', openModal)
 
 for (let i = 0; i < btnsSHowModal.length; i++) {
   btnsSHowModal[i].addEventListener('click', openModal)
 }
+
 
 btnCloseModal.addEventListener('click', closeModalFam)
 
