@@ -5,21 +5,14 @@ const modal = document.querySelector('.modal')
 const overlay = document.querySelector('.overlay')
 const btnCloseModal = document.querySelector('.close-modal')
 const btnsSHowModal = document.querySelectorAll('.show-modal')
+
+// #NOTE Calling all inputs
 const i1 = document.querySelector('.input-box1')
 const i2 = document.querySelector('.input-box2')
 const i3 = document.querySelector('.input-box3')
 const i4 = document.querySelector('.input-box4')
-// console.log("🚀 ~ file: script.js ~ line 9 ~ allI", allI)
-// console.log(allI);
 
-// const btnCheck = document.querySelector('.Check-BT')
-// const addItem = document.getElementById('add-todo')
-
-// var allI = document.querySelector('.input-box1').addEventListener('click', function(){
-//   body.style.backgroundColor = '#83D475'
-//   openModal
-// })
-
+// #NOTE When inputs clicked background turns green
 i1.addEventListener('click', function () {
   body.style.backgroundColor = '#83D475'
 })
@@ -36,20 +29,13 @@ i4.addEventListener('click', function () {
   body.style.backgroundColor = '#83D475'
 })
 
+// #NOTE When inputs clicked Modal pops up
 i1.addEventListener('click', openModal)
 i2.addEventListener('click', openModal)
 i3.addEventListener('click', openModal)
 i4.addEventListener('click', openModal)
 
 console.log("🚀 ~ file: script.js ~ line 19 ~ document.getElementById ~ document.getElementById('i')", document.querySelectorAll('.input-box'))
-
-// let allInput = document.querySelectorAll('.i').addEventListener('click', function (){
-//   console.log('====================================');
-//   console.log(4);
-//   console.log('====================================');
-//   body.style.backgroundColor = '#83D475'
-// })
-// console.log(allInputs);
 
 const openModal = function () {
   modal.classList.remove('hidden')
