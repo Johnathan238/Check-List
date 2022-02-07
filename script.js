@@ -22,8 +22,24 @@ const i4 = document.querySelector('.input-box4')
 
 i1.addEventListener('click', function () {
   body.style.backgroundColor = '#83D475'
-  openModal
 })
+
+i2.addEventListener('click', function () {
+  body.style.backgroundColor = '#83D475'
+})
+
+i3.addEventListener('click', function () {
+  body.style.backgroundColor = '#83D475'
+})
+
+i4.addEventListener('click', function () {
+  body.style.backgroundColor = '#83D475'
+})
+
+i1.addEventListener('click', openModal)
+i2.addEventListener('click', openModal)
+i3.addEventListener('click', openModal)
+i4.addEventListener('click', openModal)
 
 console.log("🚀 ~ file: script.js ~ line 19 ~ document.getElementById ~ document.getElementById('i')", document.querySelectorAll('.input-box'))
 
@@ -47,7 +63,6 @@ const closeModalFam = function () {
   // document.querySelector('body').style.backgroundColor = '#DC143C'
 }
 
-i1.addEventListener('click', openModal)
 // btnCheck.addEventListener('click', openModal)
 
 for (let i = 0; i < btnsSHowModal.length; i++) {
