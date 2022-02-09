@@ -29,11 +29,6 @@ i4.addEventListener('click', function () {
   body.style.backgroundColor = '#83D475'
 })
 
-// #NOTE When inputs clicked Modal pops up
-i1.addEventListener('click', openModal)
-i2.addEventListener('click', openModal)
-i3.addEventListener('click', openModal)
-i4.addEventListener('click', openModal)
 
 console.log("🚀 ~ file: script.js ~ line 19 ~ document.getElementById ~ document.getElementById('i')", document.querySelectorAll('.input-box'))
 
@@ -49,12 +44,15 @@ const closeModalFam = function () {
   // document.querySelector('body').style.backgroundColor = '#DC143C'
 }
 
-// btnCheck.addEventListener('click', openModal)
+// #NOTE When inputs clicked Modal pops up
+i1.addEventListener('click', openModal)
+i2.addEventListener('click', openModal)
+i3.addEventListener('click', openModal)
+i4.addEventListener('click', openModal)
 
 for (let i = 0; i < btnsSHowModal.length; i++) {
   btnsSHowModal[i].addEventListener('click', openModal)
 }
-
 
 btnCloseModal.addEventListener('click', closeModalFam)
 
