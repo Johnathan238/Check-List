@@ -41,7 +41,7 @@ const openModal = function () {
 const closeModalFam = function () {
   modal.classList.add('hidden')
   overlay.classList.add('hidden')
-  // document.querySelector('body').style.backgroundColor = '#DC143C'
+  document.querySelector('body').style.backgroundColor = '#DC143C'
 }
 
 // #NOTE When inputs clicked Modal pops up
