@@ -6,6 +6,20 @@ const overlay = document.querySelector('.overlay')
 const btnCloseModal = document.querySelector('.close-modal')
 const btnsSHowModal = document.querySelectorAll('.show-modal')
 
+// function document.getElementsById(id) () {
+//     let idList = ids.split(" ");
+//     let results = [], item;
+//     for (let i = 0; i < idList.length; i++) {
+//         item = document.getElementById(idList[i]);
+//         if (item) {
+//             results.push(item);
+//         }
+//     }
+//     return(results);
+// }
+
+// doStuff(getElementsById("1 2 3 4"));
+
 // #NOTE Calling all inputs
 const i1 = document.querySelector('.input-box1')
 const i2 = document.querySelector('.input-box2')
