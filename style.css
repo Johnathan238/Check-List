@@ -86,42 +86,6 @@ body {
     opacity: 1;
 }
 
-/* .myTableText {
-    width: 100%;
-    border-collapse: collapse;
-    background-color: rgba(255, 255, 255, 0.20)
-}
-.myTableText td,
-.myTableText th {
-    border: 2px solid rgba(255, 255, 255, 0.20);
-    padding: 5px;
-}
-.myTableText th {
-    font: bold 18px / 1.1em Arial, Helvetica, sans-serif;
-    text-shadow: 1px 1px 4px black;
-    letter-spacing: 0.1em;
-    background-color: rgba(255, 255, 255, 0.20);
-    color: #ffc400;
-}
-.myTableText td {
-    font: normal 14px / 1.5em Goudy, Georgia, serif;
-    color: #000000;
-}
-.myTableText td a:link {
-    color: #111111;
-    text-decoration: none;
-}
-.myTableText td a:visited {
-    color: #be00cf;
-}
-.myTableText td a:hover {
-    color: #FF4500;
-    text-decoration: underline;
-}
-.myTableText td a:active {
-    color: #FF0000;
-} */
-
 .show-modal {
     font-size: 2rem;
     font-weight: 600;
