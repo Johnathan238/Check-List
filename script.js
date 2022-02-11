@@ -5,9 +5,11 @@ const modal = document.querySelector('.modal')
 const overlay = document.querySelector('.overlay')
 const btnCloseModal = document.querySelector('.close-modal')
 const btnsSHowModal = document.querySelectorAll('.show-modal')
+let allI = document.getElementById("1")
+console.log(allI);
 
-// function document.getElementsById(id) () {
-//     let idList = ids.split(" ");
+// let doStuff = function getElementsById(allI) {
+//     let idList = allI.split(" ");
 //     let results = [], item;
 //     for (let i = 0; i < idList.length; i++) {
 //         item = document.getElementById(idList[i]);
@@ -18,7 +20,8 @@ const btnsSHowModal = document.querySelectorAll('.show-modal')
 //     return(results);
 // }
 
-// doStuff(getElementsById("1 2 3 4"));
+// doStuff((allI));
+// console.log("🚀 ~ file: script.js ~ line 22 ~", doStuff(getElementsById("1 2 3 4")))
 
 // #NOTE Calling all inputs
 const i1 = document.querySelector('.input-box1')
@@ -42,6 +45,12 @@ i3.addEventListener('click', function () {
 i4.addEventListener('click', function () {
   body.style.backgroundColor = '#83D475'
 })
+
+allI.addEventListener('click', () => {
+  console.log(`I'M Working`);
+  body.style.backgroundColor = '#83D475'
+})
+  
 
 
 console.log("🚀 ~ file: script.js ~ line 19 ~ document.getElementById ~ document.getElementById('i')", document.querySelectorAll('.input-box'))
