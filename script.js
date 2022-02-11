@@ -30,19 +30,19 @@ const i3 = document.querySelector('.input-box3')
 const i4 = document.querySelector('.input-box4')
 
 // #NOTE When inputs clicked background turns green
-i1.addEventListener('click', function () {
+i1.addEventListener('click', () => {
   body.style.backgroundColor = '#83D475'
 })
 
-i2.addEventListener('click', function () {
+i2.addEventListener('click', () => {
   body.style.backgroundColor = '#83D475'
 })
 
-i3.addEventListener('click', function () {
+i3.addEventListener('click', () => {
   body.style.backgroundColor = '#83D475'
 })
 
-i4.addEventListener('click', function () {
+i4.addEventListener('click', () => {
   body.style.backgroundColor = '#83D475'
 })
 
@@ -55,13 +55,13 @@ allI.addEventListener('click', () => {
 
 console.log("🚀 ~ file: script.js ~ line 19 ~ document.getElementById ~ document.getElementById('i')", document.querySelectorAll('.input-box'))
 
-const openModal = function () {
+const openModal = () => {
   modal.classList.remove('hidden')
   overlay.classList.remove('hidden')
   document.querySelector('body').style.backgroundColor = '#77d183'
 }
 
-const closeModalFam = function () {
+const closeModalFam = () => {
   modal.classList.add('hidden')
   overlay.classList.add('hidden')
   document.querySelector('body').style.backgroundColor = '#DC143C'
@@ -81,7 +81,7 @@ btnCloseModal.addEventListener('click', closeModalFam)
 
 overlay.addEventListener('click', closeModalFam)
 
-document.addEventListener('keydown', function (e) {
+document.addEventListener('keydown', (e) => {
   console.log(e.key);
 
   if (e.key === 'Escape' && !modal.classList.contains('hidden')) {
